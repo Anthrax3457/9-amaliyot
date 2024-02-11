@@ -1,0 +1,58 @@
+.carousel-item {
+    position: relative;
+}
+
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    font-weight: 900;
+    color: #FCDD44;
+    font-size: 10px !important;
+    margin-top: -17px;
+    transform: scale(0.7);
+}
+@media screen and (max-width:760px) {
+    .carousel-text {
+        position: absolute;
+        top: 20%;
+        left: 23%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .carousel-text {
+        position: absolute;
+        top: 14%;
+        left: 16%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:1369px) and (min-width:1024px) {
+    .carousel-text {
+        position: absolute;
+        top: 23.4%;
+        left: 26.8%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:1600px) and (min-width:1360px) {
+    .carousel-text {
+        position: absolute;
+        top: 26.4%;
+        left: 23.8%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
